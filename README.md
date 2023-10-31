@@ -1,5 +1,8 @@
 # issue-6517
 
+Bun issue https://github.com/oven-sh/bun/issues/6517
+
+--------------------------------------
 To test Rust
 
 
