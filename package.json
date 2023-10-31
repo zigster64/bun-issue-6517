@@ -1,0 +1,15 @@
+{
+    "name": "issue-6517",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "scripts": {
+        "rust": "rustc --crate-type cdylib ./math.rs && file libmath* && bun rust_index.ts",
+        "zig": "zig build-lib add.zig -dynamic -OReleaseFast && file libadd* && bun zig_index.ts"
+    }
+}
