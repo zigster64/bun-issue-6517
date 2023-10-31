@@ -20,6 +20,7 @@ lets do some addition via rust
 using `rustc 1.72.1 (d5c2e9c34 2023-09-13) (Homebrew)`
 and bun `1.0.7`
 and env var `DYLD_LIBRARY_PATH` not set (default condition in new shell)
+on a mac with `M2 Pro running Sonoma 14.0`
 
 --------------------------------------
 
@@ -41,3 +42,4 @@ lets do some addition via zig
 using zig version `0.11.0`
 and bun `1.0.7`
 and env var `DYLD_LIBRARY_PATH` not set (default condition in new shell)
+on a mac with `M2 Pro running Sonoma 14.0`
